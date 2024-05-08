@@ -18,3 +18,13 @@ zenuml
     John->Alice: Great!
     Alice->John: See you later!
 ```
+
+## Diagramas PlantUML
+```plantuml
+@startuml
+:User: --> (Use)
+"Main Admin" as Admin
+"Use the application" as (Use)
+Admin --> (Admin the application)
+@enduml
+```
